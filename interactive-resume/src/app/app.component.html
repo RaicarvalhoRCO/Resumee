@@ -1,0 +1,30 @@
+<div class="container">
+  <header>
+    <h1>My Interactive Resume</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a (click)="selectSection('about')">About Me</a></li>
+      <li><a (click)="selectSection('experience')">Experience</a></li>
+      <li><a (click)="selectSection('education')">Education</a></li>
+      <li><a (click)="selectSection('skills')">Skills</a></li>
+    </ul>
+  </nav>
+
+  <section *ngIf="activeSection === 'about'" [@expand]>
+    <app-about-me></app-about-me>
+  </section>
+
+  <section *ngIf="activeSection === 'experience'" [@expand]>
+    <app-experience></app-experience>
+  </section>
+
+  <section *ngIf="activeSection === 'education'" [@expand]>
+    <app-education></app-education>
+  </section>
+
+  <section *ngIf="activeSection === 'skills'" [@expand]>
+    <app-skills></app-skills>
+  </section>
+</div>
