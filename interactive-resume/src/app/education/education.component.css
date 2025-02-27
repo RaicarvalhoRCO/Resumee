@@ -1,0 +1,29 @@
+/* education.component.css */
+.education h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .education ul li {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid var(--primary-color);
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .education ul li h3 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+  }
+  
+  .education ul li p {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin: 5px 0;
+  }

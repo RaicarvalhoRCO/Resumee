@@ -1,0 +1,22 @@
+/* skills.component.css */
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .skills ul li {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 500;
+  }
