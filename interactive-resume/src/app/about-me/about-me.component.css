@@ -1,14 +1,47 @@
 .about-me {
-    text-align: center;
-  }
-  
-  .about-me h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  .about-me p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: var(--secondary-color);
-  }
+  text-align: center;
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.contact-footer {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+.contact-item i {
+  margin-right: 10px;
+  color: var(--primary-color);
+  width: 20px;
+  text-align: center;
+}
+
+.contact-item a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
