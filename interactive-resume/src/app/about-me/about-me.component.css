@@ -22,6 +22,10 @@
   text-align: left;
 }
 
+ul{
+  column-count: 2;
+}
+
 .contact-item {
   display: flex;
   align-items: center;
