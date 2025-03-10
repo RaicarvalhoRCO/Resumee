@@ -1,16 +1,36 @@
 <div class="container">
-  <header>
+  <header class="header">
     <h1>Rai Carvalho Oliveira</h1>
+    <nav>
+      <ul>
+        <li>
+          <a
+            routerLink="/about"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true }"
+          >About Me</a>
+        </li>
+        <li>
+          <a
+            routerLink="/experience"
+            routerLinkActive="active"
+          >Experience</a>
+        </li>
+        <li>
+          <a
+            routerLink="/education"
+            routerLinkActive="active"
+          >Education</a>
+        </li>
+        <li>
+          <a
+            routerLink="/skills"
+            routerLinkActive="active"
+          >Skills</a>
+        </li>
+      </ul>
+    </nav>
   </header>
-
-  <nav>
-    <ul>
-      <li><a (click)="selectSection('about')">About Me</a></li>
-      <li><a (click)="selectSection('experience')">Experience</a></li>
-      <li><a (click)="selectSection('education')">Education</a></li>
-      <li><a (click)="selectSection('skills')">Skills</a></li>
-    </ul>
-  </nav>
 
   <section *ngIf="activeSection === 'about'" [@expand]>
     <app-about-me></app-about-me>

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-experience',
   imports: [CommonModule],
+  standalone: true,
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.css']
 })

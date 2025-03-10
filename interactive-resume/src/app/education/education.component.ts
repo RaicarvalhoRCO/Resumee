@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-education',
   imports: [CommonModule],
+  standalone: true,
   templateUrl: './education.component.html',
   styleUrls: ['./education.component.css']
 })
