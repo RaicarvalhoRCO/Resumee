@@ -1,12 +1,11 @@
-/* Estilos globais */
+
 :root {
-  --primary-color: #007BFF; /* Azul profissional */
-  --secondary-color: #6c757d; /* Cinza para textos secundários */
-  --background-color: #f8f9fa; /* Fundo claro */
-  --text-color: #333; /* Cor do texto principal */
+  --primary-color: #007BFF;
+  --secondary-color: #6c757d;
+  --background-color: #f8f9fa;
+  --text-color: #333;
 }
 
-/* Container principal */
 .container {
   max-width: 800px;
   margin: 20px auto;
@@ -16,7 +15,7 @@
   border-radius: 8px;
 }
 
-/* Header */
+
 .header {
   text-align: center;
   margin-bottom: 20px;
@@ -30,7 +29,6 @@
   color: var(--primary-color);
 }
 
-/* Navegação */
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -58,7 +56,6 @@ nav ul li a:hover {
   color: #fff;
 }
 
-/* Aba ativa */
 nav ul li a.active {
   background-color: var(--primary-color);
   color: #fff;

@@ -9,5 +9,5 @@ export const routes: Routes = [
   { path: 'experience', component: ExperienceComponent },
   { path: 'education', component: EducationComponent },
   { path: 'skills', component: SkillsComponent },
-  { path: '', redirectTo: '/about', pathMatch: 'full' } // Rota padrão
+  { path: '', redirectTo: '/about', pathMatch: 'full' }
 ];
