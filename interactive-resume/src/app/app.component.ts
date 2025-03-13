@@ -35,7 +35,6 @@ export class AppComponent {
       const url = this.router.url; 
       this.activeSection = url.split('/')[1] || 'about';
     });
-    this.titleService.setTitle($localize`${this.title}`);
   }
 
   selectSection(section: string) {
