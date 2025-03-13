@@ -6,7 +6,7 @@ import { AboutMeComponent } from "./about-me/about-me.component";
 import { ExperienceComponent } from "./experience/experience.component";
 import { EducationComponent } from "./education/education.component";
 import { SkillsComponent } from "./skills/skills.component";
-import { TranslateService, TranslateModule } from '@ngx-translate/core';
+
 import { Location } from '@angular/common';
 import { Title } from '@angular/platform-browser';
 @Component({
